@@ -1,0 +1,10 @@
+
+connect
+sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:b2fff7e3-5cca-4ec4-b93e-7b636a735987 -p 169.254.2.3:3260
+sudo iscsiadm -m node -o update -T iqn.2015-12.com.oracleiaas:b2fff7e3-5cca-4ec4-b93e-7b636a735987 -n node.startup -v automatic
+sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:b2fff7e3-5cca-4ec4-b93e-7b636a735987 -p 169.254.2.3:3260 -l
+
+
+disconnect
+sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:b2fff7e3-5cca-4ec4-b93e-7b636a735987 -p 169.254.2.3:3260 -u
+sudo iscsiadm -m node -o delete -T iqn.2015-12.com.oracleiaas:b2fff7e3-5cca-4ec4-b93e-7b636a735987 -p 169.254.2.3:3260
