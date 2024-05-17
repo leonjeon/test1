@@ -1,0 +1,8 @@
+package board.view;
+
+public class BoardMenu {
+	
+	//키보드로 입력 스캐너 선언
+	Scanner sc = new Scanner(System.in);
+
+}

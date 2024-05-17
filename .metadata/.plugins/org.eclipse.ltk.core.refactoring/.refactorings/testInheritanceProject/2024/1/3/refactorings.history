@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;inherit.model.dto&apos; to &apos;testPolymorphismProject/src&apos;&#x0D;&#x0A;- Original project: &apos;testInheritanceProject&apos;&#x0D;&#x0A;- Destination element: &apos;testPolymorphismProject/src&apos;&#x0D;&#x0A;- Original element: &apos;testInheritanceProject/src/inherit.model.dto&apos;" description="Copy package" destination="=testPolymorphismProject/src" element1="/src&lt;inherit.model.dto" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1705378053308" version="1.0"/>
+</session>

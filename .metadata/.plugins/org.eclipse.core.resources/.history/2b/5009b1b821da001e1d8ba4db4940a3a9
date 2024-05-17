@@ -1,0 +1,15 @@
+package board.view;
+
+import java.util.Scanner;
+
+import board.controller.BoardManager;
+
+public class BoardMenu {
+	
+	//키보드로 입력 스캐너 선언
+	Scanner sc = new Scanner(System.in);
+	BoardManager bManager = new BoardManager();
+	
+	
+
+}
